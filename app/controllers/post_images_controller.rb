@@ -16,7 +16,7 @@ def index
 end
 
 def show
-  @post_image = PostImage.find(params[:id])
+    @post_image = PostImage.find(params[:id])
 end
 
 def destroy
